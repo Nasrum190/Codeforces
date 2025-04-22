@@ -1,0 +1,39 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int row,col,num;
+    cin>>num;
+    for(row=1; row<=num; row++)
+    {
+        for(col=1; col<=row; col++)
+        {
+            cout<<(char)(col+64);
+        }
+        cout<<endl;}
+
+
+        for(row=num-1; row>=1; row--)
+        {
+            for(col=1; col<=row; col++)
+            {
+                cout<<(char)(col+64);
+            }
+            cout<<endl;
+        }
+        return 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
